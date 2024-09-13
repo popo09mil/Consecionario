@@ -5,9 +5,9 @@
     require_once("../Models/consultasUser.php");
 
     // CAPTURAMOS EN VARIABLES LOS DATOS ENVIADOS DESDE EL FORMULARIO A PARTIR DEL METHODO POST Y LOS NAME DE LOS CAMPOS
-    $identificacion = $_POST['identificacion'];
-    $nombre = $_POST['nombre'];
-    $apellido = $_POST['apellido'];
+    $documento = $_POST['documento'];
+    $nombres = $_POST['nombres'];
+    $apellidos = $_POST['apellidos'];
     $email = $_POST['email'];
     $telefono = $_POST['telefono'];
     $rol = $_POST['rol'];
